@@ -1,7 +1,10 @@
+/*Estilizar body*/
 body{
     background-color: rgb(250, 248, 244);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Estilizar header*/
 .hero{
     background-image: linear-gradient(120deg, rgba(202, 129, 19), rgba(192, 96, 58, 0.37)),url("../img/seco.jpg");
     width: 100%;

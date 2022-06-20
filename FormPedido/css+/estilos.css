@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(250, 248, 244);
+}
+
+.hero{
+    background-image: linear-gradient(120deg, rgb(51, 36, 15), hsla(19, 53%, 77%, 0.014)),url("../img/seco.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0px;
+
+}
+
+.textos-hero{
+    height: 500px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-hero h1{
+    font-size: 60px;
+}
+.textos-hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.textos-hero a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 15px;
+    background: rgb(247, 82, 5);
+    border-radius: 8px;
+    color: rgb(240, 229, 229);
+    font-size: 20px;
+}
+
+

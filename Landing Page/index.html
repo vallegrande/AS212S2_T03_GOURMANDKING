@@ -1,17 +1,24 @@
 
 <!DOCTYPE html>
-<html2 lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOURMAND KING</title>
+
+<!--.Enlaces Css-->
     <link rel="stylesheet" href="css+/estilos.css">
     <link rel="stylesheet" href="css+/style.css">
     <link rel="stylesheet" href="css+/normalize.css">
     <link rel="stylesheet" href="css+/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet" href="resources/node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/styles.css">
+	<link rel="stylesheet" href="resources/css/estilos.css">
 </head>
 <body>
+<!--.Header-->
     <header id="header" class="header">
         <div class="container">
             <div class="rw">
@@ -55,7 +62,7 @@
         </div>
     </header>
 
-
+<!--.Textos hero fondo de pantalla-->
     <header class = "hero">
         <div class = "textos-hero">
             <h1>Bienvenidos al Gourmand King</h1>
@@ -63,12 +70,15 @@
             <a href="#encabezado">¿Que ordenará hoy?</a>
         </div>
     </header>
-
+<!--.barra divisora-->
+    <div class="barra">
+    </div>
+<!--.Informacion breve-->
     <div id="hero">
         <div class="container">
             <div class="w">
 
-                <div class="six columns">
+                <div class="six column">
                     
                     <div class="contenido-hero">
                         <h2>¿Que sitio es Gourmand King?</h2>
@@ -88,6 +98,8 @@
             </div>
         </div>
     </div>
+
+<!--.barra divisora-->
     <div class="barra">
         <div class="container">
             <div class="row">
@@ -110,6 +122,8 @@
             </div>
         </div>
     </div>
+
+<!--.Menú-->
     <div id="lista-cafe" class="container">
         <h1 id="encabezado" class="encabezado">Menú</h1>
         <div class="row">
@@ -281,9 +295,56 @@
                 </div>
             </div>
         </div>
-        <!--.row-->
-
+  
     </div>
+
+    <!--.barra divisora-->
+    <div class="barra">
+    </div>
+
+<!--.Equipo-->
+    <div class="container">
+    <h1 id="encabezado" class="encabezado">Nuestro Equipo</h1>
+
+        <section class="blogs" id="blogs">   
+            <div class="container_card">
+
+                <div class="car">
+                    <div class="cover">
+                        <img src="img/max.webp" alt="" width="200px">
+                    </div>
+                    <div class="content">
+                        <h2>Max Ramirez</h2>
+                        <p>Estudiante de análisis de sistemas</a>
+                            <input type="button" value="Leer Más">
+                    </div>
+                </div>
+        
+                <div class="car">
+                    <div class="cover">
+                        <img src="img/usuario.png" alt="" width="200px">
+                    </div>
+                    <div class="content">
+                        <h2>Luis Juscamayta</h2>
+                        <p>Estudiante de análisis de sistemas</a>
+                            <input type="button" value="Leer Más">
+                    </div>
+                </div>
+        
+                <div class="car">
+                    <div class="cover">
+                        <img src="img/usuario.png" alt="" width="200px">
+                    </div>
+                    <div class="content">
+                        <h2>Anthony Monteza</h2>
+                        <p>Estudiante de análisis de sistemas</a>
+                            <input type="button" value="Leer Más">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <footer id="footer" class="footer">
         <div class="container">
             <div class="w">
@@ -308,26 +369,8 @@
             </div>
         </div>
     </footer>
-</body>
-</html2>
-
 
 <!--.FORMULARIO DESDE AQUI HACIA ABAJO-->
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-	<link rel="stylesheet" href="resources/node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="resources/css/styles.css">
-	<link rel="stylesheet" href="resources/css/estilos.css">
-	<title>Principal</title>
-</head>
-
-<body>
 	<div id="overview">
     	<section class="order" id="order">
         	<h1 class="heading"><span>ordena</span> tu pedido</h1>
@@ -349,6 +392,23 @@
         	</div>
     	</section>
 	</div>
+    
+<!--.barra divisora-->
+<div class="barra">
+</div>
+<!--Mapa-->
+<section class="mapa" id="map">
+    <div class="headin" data-aos="fade-down" data-aos-duration="150">
+       <h3>Mapa</h3>
+    </div>
+    <div class="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d343.50642981808096!2d-76.387323414461!3d-1
+ 3.078157529159725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x306859cbddbc30b8!2sAroma!5e0!3m2!1ses!2spe!4v165
+ 3669631203!5m2!1ses!2spe" width="100%" height="500px" style="border: 15px" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+ </section>
+
 	<section class="copy" style="margin-top: 2em;">
     	<div class="container">
         	<div class="row">

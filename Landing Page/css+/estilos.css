@@ -44,3 +44,137 @@ body{
 }
 
 
+/*Equipo*/
+.container_card{
+    max-width: 1800px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car{
+    width: 300px;
+    background: rgb(44, 37, 32);
+    margin: 10px;
+}
+
+.car:hover{
+    width: 350px;
+}
+
+.car .cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.car .cover img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 4px;
+    z-index: 1;
+    transition: all 400ms;
+}
+
+.car:hover .cover img{
+    top: 0px;
+    filter: none;
+}
+
+.car .img__back{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background-size: cover;
+    border-radius: 2px;
+    transition: all 300ms;
+}
+
+.car:nth-of-type(1) .img__back{
+    background-image: url(../images/bg1.jpg);
+}
+
+.car:nth-of-type(2) .img__back{
+    background-image: url(../images/bg2.jpg);
+}
+
+.car:nth-of-type(3) .img__back{
+    background-image: url(../images/bg3.jpg);
+}
+
+.car:hover .img__back{
+    bottom: -40px;
+}
+
+.car .description{
+    background: white;
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 2px;
+    transition: all 300ms;
+}
+
+.car:hover .description{
+    padding: 40px;
+}
+
+.car .description h2{
+    margin-top: 10px;
+    background-color: rgb(255, 251, 246);
+}
+
+.car .description p{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.car .description input{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 300ms;
+}
+
+/**/
+.card:hover{
+    width: 350px;
+}
+
+.card .cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .cover img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+    transition: all 400ms;
+}
+
+.card:hover .cover img{
+    top: 0px;
+    filter: none;
+}
+
+
+
+

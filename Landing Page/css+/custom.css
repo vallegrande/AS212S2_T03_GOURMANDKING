@@ -135,7 +135,7 @@ ul {
 
 .barra {
     padding: 30px 0;
-    background: #543311;
+    background: #362D27;
 }
 
 .barra p {
@@ -178,7 +178,7 @@ ul {
 .card {
     text-align: center;
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.63);
-    background: #362D27;
+    background: #5c3407;
 }
 @media (min-width: 550px) {
     .card {

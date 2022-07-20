@@ -60,3 +60,43 @@ body{
     float: right;
     margin: 20px;
 }
+
+
+/*Flip*/
+
+
+  .u-full-width {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    background-color: #FFF;
+    border: 5px solid #FFF;
+    object-fit: cover;
+  }
+  
+  .card__header h4 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .info-card {
+    padding: 30px;
+  }
+  
+  .info-card h3 {
+    color: var(--light);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .info-card p {
+    color: var(--light);
+    font-size: 18px;
+    line-height: 1.4;
+  }
